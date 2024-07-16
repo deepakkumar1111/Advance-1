@@ -88,4 +88,8 @@ contract ERC20 is IERC20 {
         totalSupply -= amount;
         emit Transfer(msg.sender, address(0), amount);
     }
+```
+
+# Author
+Deepak Kumar
 }
