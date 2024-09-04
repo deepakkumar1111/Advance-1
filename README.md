@@ -21,7 +21,7 @@ Welcome to the thrilling world of blockchain-based gaming! This project is a DeF
 
 | **SUBNET** | **CHAIN** | **CHAINID** | **VMID**                                          | **TYPE**    |
 |------------|-----------|-------------|---------------------------------------------------|-------------|
-| mySubnet   | mySubnet  | 12345567    | qDN9XsRy6efv5tZw3q2ngfQzQZJyMQJEF3d3Nu4YisNi9iR4G | Subnet-EVM  |
+| mySubnet   | mySubnet  | 54321    |  http://127.0.0.1:9650/ext/bc/myblockchain/rpc | Subnet-EVM  |
 (This is a sample you can change the values of subnet, chain, chainid)
 ### Deploying Smart Contracts
 
@@ -45,9 +45,9 @@ interface IERC20 {
 }
 
 contract ERC20 is IERC20 {
-    string public name = "GOPALYDY";
-    string public symbol = "GYD";
-    uint8 public decimals = 18;
+    string public name = "DEEPAKTOKEN";
+    string public symbol = "DKTN";
+    uint8 public decimals = 16;
     uint public override totalSupply;
     mapping(address => uint) public override balanceOf;
     mapping(address => mapping(address => uint)) public override allowance;
